@@ -1,0 +1,1 @@
+io.objectbox.objectbox_sync_flutter_libs

@@ -6,16 +6,79 @@ abstract class AppTheme {
   static ThemeData lightTheme = ThemeData(
     colorScheme: _lightColorScheme,
     useMaterial3: true,
-    textTheme: const TextTheme(
-      bodyLarge: TextStyle(fontSize: 16, color: Color(0xFF1A1C1E)),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: _lightColorScheme.primary,
+        foregroundColor: _lightColorScheme.onPrimary,
+      ),
+    ),
+    inputDecorationTheme: InputDecorationTheme(
+      enabledBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: _lightColorScheme.outline),
+        borderRadius: BorderRadius.circular(4),
+      ),
+      disabledBorder: OutlineInputBorder(
+        borderSide:
+            BorderSide(color: _lightColorScheme.outline.withOpacity(0.12)),
+        borderRadius: BorderRadius.circular(4),
+      ),
+      errorBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: _lightColorScheme.error),
+        borderRadius: BorderRadius.circular(4),
+      ),
+      focusedErrorBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: _lightColorScheme.error, width: 2),
+        borderRadius: BorderRadius.circular(4),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: _lightColorScheme.primary, width: 2),
+        borderRadius: BorderRadius.circular(4),
+      ),
+    ),
+    progressIndicatorTheme: ProgressIndicatorThemeData(
+      color: _lightColorScheme.onPrimary,
+    ),
+    snackBarTheme: SnackBarThemeData(
+      backgroundColor: _lightColorScheme.inverseSurface,
     ),
   );
 
   static ThemeData darkTheme = ThemeData(
     colorScheme: _darkColorScheme,
     useMaterial3: true,
-    textTheme: const TextTheme(
-      bodyLarge: TextStyle(fontSize: 16, color: Color(0xFFE3E2E6)),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: _darkColorScheme.primary,
+        foregroundColor: _darkColorScheme.onPrimary,
+      ),
+    ),
+    inputDecorationTheme: InputDecorationTheme(
+      enabledBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: _darkColorScheme.outline),
+        borderRadius: BorderRadius.circular(4),
+      ),
+      disabledBorder: OutlineInputBorder(
+        borderSide:
+            BorderSide(color: _darkColorScheme.outline.withOpacity(0.12)),
+        borderRadius: BorderRadius.circular(4),
+      ),
+      errorBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: _darkColorScheme.error),
+        borderRadius: BorderRadius.circular(4),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: _darkColorScheme.primary, width: 2),
+        borderRadius: BorderRadius.circular(4),
+      ),
+      focusedErrorBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: _darkColorScheme.error, width: 2),
+        borderRadius: BorderRadius.circular(4),
+      ),
+    ),
+    progressIndicatorTheme:
+        ProgressIndicatorThemeData(color: _darkColorScheme.onPrimary),
+    snackBarTheme: SnackBarThemeData(
+      backgroundColor: _darkColorScheme.inverseSurface,
     ),
   );
 
