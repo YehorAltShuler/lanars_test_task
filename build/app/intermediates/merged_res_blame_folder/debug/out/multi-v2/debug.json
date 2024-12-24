@@ -4241,7 +4241,24 @@
             "outputFile": "com.example.linars_test_task.app-merged_res-40:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/altsaint/VS Code Projects/linars_test_task/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/altsaint/.gradle/caches/transforms-3/6ddfe7bc5a026c54878de2bc1391ef46/transformed/appcompat-1.1.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "405,475,559,643,739,841,943,1037",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "470,554,638,734,836,938,1032,1121"
+                    }
+                },
+                {
+                    "source": "/Users/altsaint/Desktop/lanars_test_task/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -4257,23 +4274,6 @@
                         "endLines": "5,8",
                         "endColumns": "12,12",
                         "endOffsets": "231,400"
-                    }
-                },
-                {
-                    "source": "/Users/altsaint/.gradle/caches/transforms-3/6ddfe7bc5a026c54878de2bc1391ef46/transformed/appcompat-1.1.0/res/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "405,475,559,643,739,841,943,1037",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "470,554,638,734,836,938,1032,1121"
                     }
                 }
             ]
@@ -4830,25 +4830,6 @@
                     }
                 },
                 {
-                    "source": "/Users/altsaint/VS Code Projects/linars_test_task/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "1488,1492",
-                        "startColumns": "4,4",
-                        "startOffsets": "93582,93763",
-                        "endLines": "1491,1494",
-                        "endColumns": "12,12",
-                        "endOffsets": "93758,93927"
-                    }
-                },
-                {
                     "source": "/Users/altsaint/.gradle/caches/transforms-3/8859fd2468ade3ef2655d1f63d6737f2/transformed/jetified-window-1.2.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,9,17,25,37,43,49,50,51,52,53,54,55,61,66,74,89",
@@ -4903,6 +4884,25 @@
                         "endLines": "218,219,220,228,229,230,305,3410",
                         "endColumns": "58,47,55,74,75,71,65,24",
                         "endOffsets": "12959,13007,13063,13749,13825,13897,18393,181281"
+                    }
+                },
+                {
+                    "source": "/Users/altsaint/Desktop/lanars_test_task/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "1488,1492",
+                        "startColumns": "4,4",
+                        "startOffsets": "93582,93763",
+                        "endLines": "1491,1494",
+                        "endColumns": "12,12",
+                        "endOffsets": "93758,93927"
                     }
                 }
             ]
