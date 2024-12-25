@@ -141,10 +141,11 @@ class __SignInFormState extends State<_SignInForm> {
                       );
                     },
               child: widget.isLoading
-                  ? const SizedBox(
+                  ? SizedBox(
                       height: 24,
                       width: 24,
                       child: CircularProgressIndicator(
+                        color: Colors.white,
                         strokeWidth: 3,
                       ),
                     )

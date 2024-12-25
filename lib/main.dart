@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lanars_test_task/core/common/user/user_cubit.dart';
 import 'package:lanars_test_task/features/auth/viewModel/bloc/auth_bloc.dart';
+import 'package:lanars_test_task/features/home/viewModel/bloc/feeds_bloc.dart';
 import 'package:lanars_test_task/injection_container.dart';
 
 import 'core/navigation/app_router.dart';
@@ -45,6 +46,9 @@ class _MyAppState extends State<MyApp> {
           create: (BuildContext context) => sl(),
         ),
         BlocProvider<UserCubit>(
+          create: (BuildContext context) => sl(),
+        ),
+        BlocProvider<FeedsBloc>(
           create: (BuildContext context) => sl(),
         ),
       ],

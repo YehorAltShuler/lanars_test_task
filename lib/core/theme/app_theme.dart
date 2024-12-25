@@ -12,6 +12,11 @@ abstract class AppTheme {
         foregroundColor: _lightColorScheme.onPrimary,
       ),
     ),
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(
+        foregroundColor: _lightColorScheme.onSurfaceVariant,
+      ),
+    ),
     inputDecorationTheme: InputDecorationTheme(
       enabledBorder: OutlineInputBorder(
         borderSide: BorderSide(color: _lightColorScheme.outline),
@@ -35,12 +40,11 @@ abstract class AppTheme {
         borderRadius: BorderRadius.circular(4),
       ),
     ),
-    progressIndicatorTheme: ProgressIndicatorThemeData(
-      color: _lightColorScheme.onPrimary,
-    ),
     snackBarTheme: SnackBarThemeData(
       backgroundColor: _lightColorScheme.inverseSurface,
     ),
+    appBarTheme:
+        AppBarTheme(foregroundColor: _lightColorScheme.onSurfaceVariant),
   );
 
   static ThemeData darkTheme = ThemeData(
@@ -50,6 +54,11 @@ abstract class AppTheme {
       style: ElevatedButton.styleFrom(
         backgroundColor: _darkColorScheme.primary,
         foregroundColor: _darkColorScheme.onPrimary,
+      ),
+    ),
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(
+        foregroundColor: _darkColorScheme.onSurfaceVariant,
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
@@ -75,11 +84,11 @@ abstract class AppTheme {
         borderRadius: BorderRadius.circular(4),
       ),
     ),
-    progressIndicatorTheme:
-        ProgressIndicatorThemeData(color: _darkColorScheme.onPrimary),
     snackBarTheme: SnackBarThemeData(
       backgroundColor: _darkColorScheme.inverseSurface,
     ),
+    appBarTheme:
+        AppBarTheme(foregroundColor: _darkColorScheme.onSurfaceVariant),
   );
 
   static const _lightColorScheme = ColorScheme(
