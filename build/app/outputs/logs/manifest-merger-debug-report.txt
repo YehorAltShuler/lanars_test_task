@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/main/AndroidManifest.xml:2:5-33:19
-INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/main/AndroidManifest.xml:2:5-33:19
+INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml
 MERGED from [androidx.window:window:1.2.0] /Users/altsaint/.gradle/caches/transforms-3/8859fd2468ade3ef2655d1f63d6737f2/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.2.0] /Users/altsaint/.gradle/caches/transforms-3/8859fd2468ade3ef2655d1f63d6737f2/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.core:core:1.13.1] /Users/altsaint/.gradle/caches/transforms-3/889ae3adf7a24645889ee22f4dad2cac/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
@@ -15,20 +15,21 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/altsaint/.gradle/cac
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/altsaint/.gradle/caches/transforms-3/d21e37b6169caa7895fc002c1192b0f1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/altsaint/.gradle/caches/transforms-3/d21e37b6169caa7895fc002c1192b0f1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/altsaint/.gradle/caches/transforms-3/889ae3adf7a24645889ee22f4dad2cac/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:name
-		INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/main/AndroidManifest.xml:1:1-45:12
-MERGED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/main/AndroidManifest.xml:1:1-45:12
-INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-MERGED from [:objectbox_sync_flutter_libs] /Users/altsaint/Desktop/lanars_test_task/build/objectbox_sync_flutter_libs/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:path_provider_android] /Users/altsaint/Desktop/lanars_test_task/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:shared_preferences_android] /Users/altsaint/Desktop/lanars_test_task/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+ADDED from /Users/altsaint/Documents/lanars_test_task/android/app/src/main/AndroidManifest.xml:1:1-45:12
+MERGED from /Users/altsaint/Documents/lanars_test_task/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+MERGED from [:objectbox_sync_flutter_libs] /Users/altsaint/Documents/lanars_test_task/build/objectbox_sync_flutter_libs/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /Users/altsaint/Documents/lanars_test_task/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] /Users/altsaint/Documents/lanars_test_task/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite_android] /Users/altsaint/Documents/lanars_test_task/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/altsaint/.gradle/caches/transforms-3/1692bf3a139d7c8edeec9814bc8c0153/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.datastore:datastore:1.0.0] /Users/altsaint/.gradle/caches/transforms-3/1bf5fbd23c341f3ee1031fd67c06ffae/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.preference:preference:1.2.1] /Users/altsaint/.gradle/caches/transforms-3/047aa7ddff6241681155a5178fa0e58d/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
@@ -82,39 +83,41 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/altsaint/
 MERGED from [io.objectbox:objectbox-sync-android:4.0.3] /Users/altsaint/.gradle/caches/transforms-3/069b50979694657057cb6778ce218d11/transformed/jetified-objectbox-sync-android-4.0.3/AndroidManifest.xml:2:1-8:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/altsaint/.gradle/caches/transforms-3/84b17be5f49a910e04e8c35fea028f28/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/altsaint/Documents/lanars_test_task/android/app/src/main/AndroidManifest.xml:1:11-69
 queries
-ADDED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/main/AndroidManifest.xml:39:5-44:15
+ADDED from /Users/altsaint/Documents/lanars_test_task/android/app/src/main/AndroidManifest.xml:39:5-44:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/main/AndroidManifest.xml:40:9-43:18
+ADDED from /Users/altsaint/Documents/lanars_test_task/android/app/src/main/AndroidManifest.xml:40:9-43:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/main/AndroidManifest.xml:41:13-72
+ADDED from /Users/altsaint/Documents/lanars_test_task/android/app/src/main/AndroidManifest.xml:41:13-72
 	android:name
-		ADDED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/main/AndroidManifest.xml:41:21-70
+		ADDED from /Users/altsaint/Documents/lanars_test_task/android/app/src/main/AndroidManifest.xml:41:21-70
 data
-ADDED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/main/AndroidManifest.xml:42:13-50
+ADDED from /Users/altsaint/Documents/lanars_test_task/android/app/src/main/AndroidManifest.xml:42:13-50
 	android:mimeType
-		ADDED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/main/AndroidManifest.xml:42:19-48
+		ADDED from /Users/altsaint/Documents/lanars_test_task/android/app/src/main/AndroidManifest.xml:42:19-48
 uses-permission#android.permission.INTERNET
-ADDED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml:6:22-64
 uses-sdk
-INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml
-MERGED from [:objectbox_sync_flutter_libs] /Users/altsaint/Desktop/lanars_test_task/build/objectbox_sync_flutter_libs/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:objectbox_sync_flutter_libs] /Users/altsaint/Desktop/lanars_test_task/build/objectbox_sync_flutter_libs/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /Users/altsaint/Desktop/lanars_test_task/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /Users/altsaint/Desktop/lanars_test_task/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] /Users/altsaint/Desktop/lanars_test_task/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] /Users/altsaint/Desktop/lanars_test_task/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml
+MERGED from [:objectbox_sync_flutter_libs] /Users/altsaint/Documents/lanars_test_task/build/objectbox_sync_flutter_libs/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:objectbox_sync_flutter_libs] /Users/altsaint/Documents/lanars_test_task/build/objectbox_sync_flutter_libs/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/altsaint/Documents/lanars_test_task/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/altsaint/Documents/lanars_test_task/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/altsaint/Documents/lanars_test_task/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/altsaint/Documents/lanars_test_task/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] /Users/altsaint/Documents/lanars_test_task/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] /Users/altsaint/Documents/lanars_test_task/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/altsaint/.gradle/caches/transforms-3/1692bf3a139d7c8edeec9814bc8c0153/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/altsaint/.gradle/caches/transforms-3/1692bf3a139d7c8edeec9814bc8c0153/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore:1.0.0] /Users/altsaint/.gradle/caches/transforms-3/1bf5fbd23c341f3ee1031fd67c06ffae/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -220,9 +223,9 @@ MERGED from [io.objectbox:objectbox-sync-android:4.0.3] /Users/altsaint/.gradle/
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/altsaint/.gradle/caches/transforms-3/84b17be5f49a910e04e8c35fea028f28/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/altsaint/.gradle/caches/transforms-3/84b17be5f49a910e04e8c35fea028f28/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
 	android:targetSdkVersion
-		INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/altsaint/Desktop/lanars_test_task/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/altsaint/Documents/lanars_test_task/android/app/src/debug/AndroidManifest.xml
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.2.0] /Users/altsaint/.gradle/caches/transforms-3/8859fd2468ade3ef2655d1f63d6737f2/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
 	android:required
