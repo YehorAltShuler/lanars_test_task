@@ -42,16 +42,9 @@ class _HomeScreenState extends State<HomeScreen> {
         bottom: _isSearching
             ? PreferredSize(
                 preferredSize: Size.fromHeight(1.0),
-                child: Column(
-                  children: [
-                    Container(
-                      color: Theme.of(context).colorScheme.outline,
-                      height: 1.0,
-                    ),
-                    SizedBox(
-                      height: 12,
-                    )
-                  ],
+                child: Container(
+                  color: Theme.of(context).colorScheme.outline,
+                  height: 1.0,
                 ),
               )
             : null,
