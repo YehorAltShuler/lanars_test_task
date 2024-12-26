@@ -40,11 +40,7 @@ The app provides the following features:
    ```bash
    flutter pub get
    ```
-5. Generate code for `auto_route`, `retrofit`, and `objectbox`:
-   ```bash
-   flutter pub run build_runner build --delete-conflicting-outputs
-   ```
-6. Run the application:
+5. Run the application:
    ```bash
    flutter run
    ```
@@ -72,7 +68,6 @@ The app provides the following features:
 | Library                | Version  | Purpose                                                                     |
 |------------------------|----------|-----------------------------------------------------------------------------|
 | `auto_route_generator` | ^9.0.0   | Code generation for `auto_route` routing.                                  |
-| `bloc_test`            | ^9.1.7   | Testing BLoC components.                                                   |
 | `build_runner`         | ^2.4.14  | Generates helper code (e.g., JSON serialization, routing).                 |
 | `flutter_lints`        | ^5.0.0   | Linting rules for code quality.                                            |
 | `json_serializable`    | ^6.9.0   | Generates JSON serialization/deserialization code.                         |
