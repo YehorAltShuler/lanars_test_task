@@ -128,17 +128,18 @@ class __SignInFormState extends State<_SignInForm> {
             decoration: InputDecoration(
               hintText: 'Enter your email',
               labelText: 'Email',
-              errorText: emailError, // Используем локальное состояние ошибки
+              errorText: emailError,
             ),
             enabled: !widget.isLoading,
             textInputAction: TextInputAction.next,
             onChanged: (value) {
               if (emailError != null) {
                 setState(() {
-                  emailError = null; // Сбрасываем ошибку при изменении текста
+                  emailError = null;
                 });
               }
             },
+            validator: (value) => Validator.validateUserEmail(value),
             onFieldSubmitted: (_) {
               FocusScope.of(context).requestFocus(passwordFocusNode);
             },
@@ -150,18 +151,19 @@ class __SignInFormState extends State<_SignInForm> {
             decoration: InputDecoration(
               hintText: 'Enter your password',
               labelText: 'Password',
-              errorText: passwordError, // Используем локальное состояние ошибки
+              errorText: passwordError,
             ),
             enabled: !widget.isLoading,
+            obscureText: true,
             textInputAction: TextInputAction.done,
             onChanged: (value) {
               if (passwordError != null) {
                 setState(() {
-                  passwordError =
-                      null; // Сбрасываем ошибку при изменении текста
+                  passwordError = null;
                 });
               }
             },
+            validator: (value) => Validator.validatePassword(value),
             onFieldSubmitted: (_) {
               FocusScope.of(context).unfocus();
             },
@@ -183,7 +185,7 @@ class __SignInFormState extends State<_SignInForm> {
                       );
                     },
               child: widget.isLoading
-                  ? SizedBox(
+                  ? const SizedBox(
                       height: 24,
                       width: 24,
                       child: CircularProgressIndicator(
