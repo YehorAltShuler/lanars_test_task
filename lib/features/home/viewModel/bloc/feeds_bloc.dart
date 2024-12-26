@@ -31,13 +31,17 @@ class FeedsBloc extends Bloc<FeedsEvent, FeedsState> {
     on<FeedsRefresh>(_onFeedsRefresh);
   }
 
+  void clearFilteredFeeds() {
+    filteredFeeds.clear();
+  }
+
   void _onFeedsGet(FeedsGet event, Emitter<FeedsState> emit) async {
     emit(FeedsLoading());
+    page = 1;
     try {
-      final feeds = await _feedsRepository.getFeeds(page);
+      final feeds = await _feedsRepository.getFeeds(page: page);
       allFeeds = feeds;
-      allFeeds.sort((a, b) =>
-          a.photographerName.compareTo(b.photographerName)); // Сортировка ASC
+      allFeeds.sort((a, b) => a.photographerName.compareTo(b.photographerName));
       emit(FeedsGetSuccess(allFeeds));
     } catch (e) {
       emit(FeedsError(e.toString()));
@@ -46,10 +50,10 @@ class FeedsBloc extends Bloc<FeedsEvent, FeedsState> {
 
   void _onFeedsRefresh(FeedsRefresh event, Emitter<FeedsState> emit) async {
     try {
-      final feeds = await _feedsRepository.getFeeds(page);
+      page = 1;
+      final feeds = await _feedsRepository.getFeeds(page: page);
       allFeeds = feeds;
-      allFeeds.sort((a, b) =>
-          a.photographerName.compareTo(b.photographerName)); // Сортировка ASC
+      allFeeds.sort((a, b) => a.photographerName.compareTo(b.photographerName));
       emit(FeedsGetSuccess(allFeeds));
     } catch (e) {
       emit(FeedsError(e.toString()));
@@ -60,10 +64,9 @@ class FeedsBloc extends Bloc<FeedsEvent, FeedsState> {
     isLoading = true;
     try {
       page++;
-      final feeds = await _feedsRepository.getFeeds(page);
+      final feeds = await _feedsRepository.getFeeds(page: page);
       allFeeds.addAll(feeds);
-      allFeeds.sort((a, b) =>
-          a.photographerName.compareTo(b.photographerName)); // Сортировка ASC
+      allFeeds.sort((a, b) => a.photographerName.compareTo(b.photographerName));
       emit(FeedsLoadMoreSuccess(allFeeds));
       isLoading = false;
     } catch (e) {
@@ -76,24 +79,20 @@ class FeedsBloc extends Bloc<FeedsEvent, FeedsState> {
       FeedsSearch event, Emitter<FeedsState> emit) async {
     await Future.delayed(const Duration(milliseconds: 1000));
 
-    if (emit.isDone) return; // Проверяем, что emit все еще актуален
+    if (emit.isDone) return; // Нужно чтобы не срабатывала пагинация
 
     if (event.query.length >= 3) {
       emit(FeedsLoading());
       final query = event.query.toLowerCase();
 
-      // Логика поиска: учитываем только случаи, где строка запроса — это подстрока имени фотографа
       filteredFeeds = allFeeds
-          .where((feed) => feed.photographerName
-              .toLowerCase()
-              .startsWith(query)) // Условие строгого соответствия
+          .where(
+              (feed) => feed.photographerName.toLowerCase().startsWith(query))
           .toList();
 
-      emit(
-          FeedsGetSuccess(filteredFeeds)); // Обновляем UI с результатами поиска
+      emit(FeedsGetSuccess(filteredFeeds));
     } else if (event.query.isEmpty) {
-      emit(FeedsGetSuccess(
-          allFeeds)); // Если строка поиска пуста, показываем все фиды
+      emit(FeedsGetSuccess(allFeeds));
     }
   }
 

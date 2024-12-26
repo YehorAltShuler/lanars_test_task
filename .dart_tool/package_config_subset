@@ -538,10 +538,6 @@ yaml
 3.4
 file:///Users/altsaint/.pub-cache/hosted/pub.dev/yaml-3.1.3/
 file:///Users/altsaint/.pub-cache/hosted/pub.dev/yaml-3.1.3/lib/
-lanars_test_task
-3.6
-file:///Users/altsaint/Documents/lanars_test_task/
-file:///Users/altsaint/Documents/lanars_test_task/lib/
 _macros
 3.4
 file:///Users/altsaint/FlutterDev/flutter/bin/cache/dart-sdk/pkg/_macros/
@@ -562,4 +558,8 @@ flutter_web_plugins
 3.2
 file:///Users/altsaint/FlutterDev/flutter/packages/flutter_web_plugins/
 file:///Users/altsaint/FlutterDev/flutter/packages/flutter_web_plugins/lib/
+lanars_test_task
+3.6
+file:///Users/altsaint/Pictures/lanars_test_task/
+file:///Users/altsaint/Pictures/lanars_test_task/lib/
 2

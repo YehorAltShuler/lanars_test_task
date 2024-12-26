@@ -1,14 +1,14 @@
-#Wed Dec 25 18:28:35 EET 2024
-base.0=/Users/altsaint/Documents/lanars_test_task/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/altsaint/Documents/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex
-base.2=/Users/altsaint/Documents/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/15/classes.dex
-base.3=/Users/altsaint/Documents/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/4/classes.dex
-base.4=/Users/altsaint/Documents/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/5/classes.dex
-base.5=/Users/altsaint/Documents/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/7/classes.dex
-base.6=/Users/altsaint/Documents/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/9/classes.dex
-base.7=/Users/altsaint/Documents/lanars_test_task/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.8=/Users/altsaint/Documents/lanars_test_task/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.9=/Users/altsaint/Documents/lanars_test_task/build/app/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
+#Thu Dec 26 13:29:06 EET 2024
+base.0=/Users/altsaint/Pictures/lanars_test_task/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/altsaint/Pictures/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex
+base.2=/Users/altsaint/Pictures/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/15/classes.dex
+base.3=/Users/altsaint/Pictures/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/4/classes.dex
+base.4=/Users/altsaint/Pictures/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/5/classes.dex
+base.5=/Users/altsaint/Pictures/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/7/classes.dex
+base.6=/Users/altsaint/Pictures/lanars_test_task/build/app/intermediates/dex/debug/mergeLibDexDebug/9/classes.dex
+base.7=/Users/altsaint/Pictures/lanars_test_task/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.8=/Users/altsaint/Pictures/lanars_test_task/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.9=/Users/altsaint/Pictures/lanars_test_task/build/app/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
 path.0=classes.dex
 path.1=11/classes.dex
 path.2=15/classes.dex
