@@ -4258,7 +4258,7 @@
                     }
                 },
                 {
-                    "source": "/Users/altsaint/Documents/lanars_test_task/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/altsaint/Pictures/lanars_test_task/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -4726,6 +4726,25 @@
                     }
                 },
                 {
+                    "source": "/Users/altsaint/Pictures/lanars_test_task/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "1488,1492",
+                        "startColumns": "4,4",
+                        "startOffsets": "93582,93763",
+                        "endLines": "1491,1494",
+                        "endColumns": "12,12",
+                        "endOffsets": "93758,93927"
+                    }
+                },
+                {
                     "source": "/Users/altsaint/.gradle/caches/transforms-3/334f77f688c510e4c631ba2daaab7ec9/transformed/coordinatorlayout-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
@@ -4742,25 +4761,6 @@
                         "endLines": "3,2074,2787,2871",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "220,134987,158832,163348"
-                    }
-                },
-                {
-                    "source": "/Users/altsaint/Documents/lanars_test_task/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "1488,1492",
-                        "startColumns": "4,4",
-                        "startOffsets": "93582,93763",
-                        "endLines": "1491,1494",
-                        "endColumns": "12,12",
-                        "endOffsets": "93758,93927"
                     }
                 },
                 {

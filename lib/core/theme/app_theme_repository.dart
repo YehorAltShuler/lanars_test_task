@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lanars_test_task/core/services/shared_preferences_service.dart';
+import 'package:lanars_test_task/core/services/impl/shared_preferences_service.dart';
 
 class AppThemeRepository {
   final SharedPreferencesService _sharedPreferencesService;

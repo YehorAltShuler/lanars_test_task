@@ -1,0 +1,1 @@
+ /Users/altsaint/Pictures/lanars_test_task/.dart_tool/flutter_build/8ddd951019a028198537ac88040d05f1/native_assets.yaml: 

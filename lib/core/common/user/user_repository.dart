@@ -1,4 +1,4 @@
-import 'package:lanars_test_task/core/services/objectbox_service.dart';
+import 'package:lanars_test_task/core/services/impl/objectbox_service.dart';
 
 import 'user.dart';
 

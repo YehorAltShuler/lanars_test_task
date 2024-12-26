@@ -1,8 +1,9 @@
-import '../../DTOs/pexels_response.dart';
+import 'package:retrofit/retrofit.dart';
+
+import '../../DTO/pexels_response.dart';
 
 abstract interface class FeedsService {
-  Future<PexelsResponse> getFeeds({
-    String apiKey,
+  Future<HttpResponse<PexelsResponse>> getFeeds({
     int perPage,
     int page,
   });

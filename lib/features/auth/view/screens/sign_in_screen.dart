@@ -80,15 +80,38 @@ class __SignInFormState extends State<_SignInForm> {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
   final formKey = GlobalKey<FormState>();
+
+  String? emailError;
+  String? passwordError;
+
   final emailFocusNode = FocusNode();
   final passwordFocusNode = FocusNode();
 
   @override
+  void initState() {
+    super.initState();
+    emailFocusNode.addListener(() {
+      if (!emailFocusNode.hasFocus) {
+        setState(() {
+          emailError = Validator.validateUserEmail(emailController.text);
+        });
+      }
+    });
+    passwordFocusNode.addListener(() {
+      if (!passwordFocusNode.hasFocus) {
+        setState(() {
+          passwordError = Validator.validatePassword(passwordController.text);
+        });
+      }
+    });
+  }
+
+  @override
   void dispose() {
-    emailController.dispose();
-    passwordController.dispose();
     emailFocusNode.dispose();
     passwordFocusNode.dispose();
+    emailController.dispose();
+    passwordController.dispose();
     super.dispose();
   }
 
@@ -102,11 +125,20 @@ class __SignInFormState extends State<_SignInForm> {
           TextFormField(
             controller: emailController,
             focusNode: emailFocusNode,
-            decoration: const InputDecoration(
-                hintText: 'Enter your email', labelText: 'Email'),
-            validator: Validator.validateUserEmail,
+            decoration: InputDecoration(
+              hintText: 'Enter your email',
+              labelText: 'Email',
+              errorText: emailError, // Используем локальное состояние ошибки
+            ),
             enabled: !widget.isLoading,
             textInputAction: TextInputAction.next,
+            onChanged: (value) {
+              if (emailError != null) {
+                setState(() {
+                  emailError = null; // Сбрасываем ошибку при изменении текста
+                });
+              }
+            },
             onFieldSubmitted: (_) {
               FocusScope.of(context).requestFocus(passwordFocusNode);
             },
@@ -115,11 +147,21 @@ class __SignInFormState extends State<_SignInForm> {
           TextFormField(
             controller: passwordController,
             focusNode: passwordFocusNode,
-            decoration: const InputDecoration(
-                hintText: 'Enter your password', labelText: 'Password'),
-            validator: Validator.validatePassword,
+            decoration: InputDecoration(
+              hintText: 'Enter your password',
+              labelText: 'Password',
+              errorText: passwordError, // Используем локальное состояние ошибки
+            ),
             enabled: !widget.isLoading,
             textInputAction: TextInputAction.done,
+            onChanged: (value) {
+              if (passwordError != null) {
+                setState(() {
+                  passwordError =
+                      null; // Сбрасываем ошибку при изменении текста
+                });
+              }
+            },
             onFieldSubmitted: (_) {
               FocusScope.of(context).unfocus();
             },
